@@ -39,6 +39,10 @@ function CityDetails() {
         navigate(`/meetings/${cityName}`);
     }
 
+    const handleNewsClick = () => {
+        navigate(`/news/${cityName}`);
+    }
+
     return (
         <div className="city-details-container">
             <h1>{cityName}</h1>
@@ -48,6 +52,7 @@ function CityDetails() {
                 <button onClick={handleRepresentativesClick}>Your Representatives</button>
                 <button onClick={handleElectionsClick}>Local Elections</button>
                 <button onClick={handleMeetingsClick}>Government Meetings</button>
+                <button onClick={handleNewsClick}>Local News</button>
             </div>
         </div>
     );
