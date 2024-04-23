@@ -50,7 +50,6 @@ function CityDetails() {
             <div className="buttons-container">
                 <button onClick={handleComplianceClick}>Code of Compliance</button>
                 <button onClick={handleRepresentativesClick}>Your Representatives</button>
-                <button onClick={handleElectionsClick}>Local Elections</button>
                 <button onClick={handleMeetingsClick}>Government Meetings</button>
                 <button onClick={handleNewsClick}>Local News</button>
             </div>
